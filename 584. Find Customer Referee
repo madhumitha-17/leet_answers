@@ -1,0 +1,6 @@
+584. Find Customer Referee
+
+/* Write your PL/SQL query statement below */
+select name
+from customer
+where referee_id <> 2 OR referee_id is null;
